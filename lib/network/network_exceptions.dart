@@ -1,0 +1,1 @@
+const noConnection = "No connection";
