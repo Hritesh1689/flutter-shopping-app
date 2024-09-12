@@ -11,8 +11,8 @@ class ProductRepository{
 
    static Future<Result<dynamic>> callGetProductApi(BuildContext context) async {
 
-     // dynamic jsonMap = await ProductServices.getAllProducts(context, jsonDecode(allProduct));
-     dynamic jsonMap = jsonDecode(allProduct);
+      dynamic jsonMap = await ProductServices.getAllProducts(context, jsonDecode(allProduct));
+  //   dynamic jsonMap = jsonDecode(allProduct);
 
      try {
        var respObj = AllProductResponse.fromJson(jsonMap);

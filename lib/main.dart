@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       color: Colors.white,
-      initialRoute: '/',
+      initialRoute: '/products',
     );
   }
 }
